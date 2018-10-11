@@ -1,0 +1,9 @@
+@import "~node-normalize-scss/normalize";
+@import "variables";
+@import "app";
+
+html, body {
+  font-family: $standard-font;
+  font-size: $standard-font-size;
+  color: $standard-font-color;
+}
